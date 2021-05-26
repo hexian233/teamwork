@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--用户昵称-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="昵        称："/><!--TODO 绑定用户名-->
+
+        <EditText
+            android:id="@+id/enter_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入最长8位"
+            android:inputType="textPersonName"
+            android:maxLength="8" />
+     </LinearLayout>
+
+
+
+    <!--用户个性签名-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="个性签名："/><!--TODO 绑定个性签名-->
+
+        <EditText
+            android:id="@+id/enter_personal_signature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入最长30个字符"
+            android:inputType="textPersonName"
+            android:maxLength="30" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/uploadsculpture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上传头像" />
+
+    <Button
+        android:id="@+id/confirmchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:text="确定修改"/><!--TODO 判断密码和确认密码是否一致-->
+
+</LinearLayout>
