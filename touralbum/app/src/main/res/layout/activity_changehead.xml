@@ -7,9 +7,9 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="468dp"
         android:background="#0051CA65"
-        android:padding="30dp" >
+        android:padding="30dp">
 
         <ImageView
             android:id="@+id/iv_personal_icon"

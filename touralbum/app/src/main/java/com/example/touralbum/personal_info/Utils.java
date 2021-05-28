@@ -1,4 +1,4 @@
-package com.example.touralbum.wode;
+package com.example.touralbum.personal_info;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
